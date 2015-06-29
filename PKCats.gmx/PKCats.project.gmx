@@ -27,8 +27,6 @@
   <sprites name="sprites">
     <sprites name="Buttons">
       <sprite>sprites\sp_button_go</sprite>
-      <sprite>sprites\sp_button_hiscore</sprite>
-      <sprite>sprites\sp_button_shop</sprite>
       <sprite>sprites\sp_button_forest</sprite>
       <sprite>sprites\sp_button_farm</sprite>
       <sprite>sprites\sp_button_suburbs</sprite>
@@ -63,6 +61,7 @@
     <background>background\bg_menu</background>
     <background>background\bg_forest</background>
     <background>background\bg_records</background>
+    <background>background\Logo_1</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -72,7 +71,6 @@
   <objects name="objects">
     <objects name="Buttons">
       <object>objects\ob_button_shop</object>
-      <object>objects\ob_button_go</object>
       <object>objects\ob_button_records</object>
       <object>objects\ob_button_forest</object>
       <object>objects\ob_button_farm</object>
@@ -83,6 +81,7 @@
       <object>objects\ob_button_sky</object>
       <object>objects\ob_button_space</object>
       <object>objects\ob_button_ship</object>
+      <object>objects\ob_button_go</object>
     </objects>
     <objects name="Floors">
       <object>objects\ob_floor_grass</object>
