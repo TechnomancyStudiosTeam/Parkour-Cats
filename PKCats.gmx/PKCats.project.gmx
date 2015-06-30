@@ -54,6 +54,7 @@
       <sprite>sprites\sp_timer_ts</sprite>
     </sprites>
     <sprite>sprites\sprite22</sprite>
+    <sprite>sprites\sp_kitty_coin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tsm</background>
