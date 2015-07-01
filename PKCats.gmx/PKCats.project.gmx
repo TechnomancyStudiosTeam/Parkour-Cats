@@ -23,7 +23,11 @@
     </datafile>
   </datafiles>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\s_menu</sound>
+    <sound>sound\s_jump</sound>
+    <sound>sound\s_coin</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Buttons">
       <sprite>sprites\sp_button_go</sprite>
@@ -38,8 +42,6 @@
       <sprite>sprites\sp_button_ship</sprite>
     </sprites>
     <sprites name="Cats">
-      <sprite>sprites\sp_wonkycat_idle</sprite>
-      <sprite>sprites\sp_wonkycat_run</sprite>
       <sprite>sprites\sp_retrocat_run</sprite>
       <sprite>sprites\sp_retrocat_jump</sprite>
       <sprite>sprites\sp_retrocat_fall</sprite>
@@ -51,10 +53,10 @@
       <sprite>sprites\sp_h_rock</sprite>
       <sprite>sprites\sp_h_sap</sprite>
       <sprite>sprites\sp_h_puddle</sprite>
+      <sprite>sprites\sp_kittycoin</sprite>
       <sprite>sprites\sp_timer_ts</sprite>
+      <sprite>sprites\sp_deleter</sprite>
     </sprites>
-    <sprite>sprites\sprite22</sprite>
-    <sprite>sprites\sp_kitty_coin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tsm</background>
@@ -65,11 +67,14 @@
     <background>background\Logo_1</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fnt_1</font>
     <font>fonts\fnt_scores</font>
   </fonts>
   <objects name="objects">
+    <object>objects\ob_spawn_coin</object>
+    <object>objects\ob_kittycoin</object>
     <objects name="Buttons">
       <object>objects\ob_button_shop</object>
       <object>objects\ob_button_records</object>
@@ -83,6 +88,7 @@
       <object>objects\ob_button_space</object>
       <object>objects\ob_button_ship</object>
       <object>objects\ob_button_go</object>
+      <object>objects\ob_kittycoins</object>
     </objects>
     <objects name="Floors">
       <object>objects\ob_floor_grass</object>
@@ -96,13 +102,14 @@
       <object>objects\ob_h_puddle</object>
       <object>objects\ob_h_logs</object>
       <object>objects\ob_h_spawner</object>
+      <object>objects\ob_deleter</object>
     </objects>
     <objects name="Timers">
       <object>objects\ob_timer_ts</object>
+      <object>objects\ob_time</object>
+      <object>objects\obj_countup_controller</object>
+      <object>objects\obj_draw_scores</object>
     </objects>
-    <object>objects\ob_time</object>
-    <object>objects\obj_countup_controller</object>
-    <object>objects\obj_draw_scores</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_studios</room>

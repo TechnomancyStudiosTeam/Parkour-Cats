@@ -26,7 +26,35 @@
           <argument>
             <kind>1</kind>
             <string>alarm[0] = random_range(60, 120);
-alarm[1] = random_range(80, 180);
+alarm[1] = random_range(180, 360);
+alarm[3] = random_range(80, 180);
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>alarm[3] = random_range(80, 180);
+
+puddle = instance_create(x,y,ob_h_logs);
+
+puddle.speed = 10;
 </string>
           </argument>
         </arguments>
@@ -49,9 +77,9 @@ alarm[1] = random_range(80, 180);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>alarm[1] = random_range(80, 180);
+            <string>alarm[1] = random_range(180, 360);
 
-tree = instance_create(x,y,ob_h_logs);
+tree = instance_create(x,y,ob_h_puddle);
 
 tree.speed = 10;
 </string>
